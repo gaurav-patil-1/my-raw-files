@@ -1,0 +1,104 @@
+Internet Sonar - refer to a system or tool that helps in detecting, navigating, or analyzing aspects of the internet like outage detection in internet services.
+
+AIaaS (Artificial Intelligence as a Service): Imagine you want to use some smart, AI-based features for your work, like a tool that predicts sales or a chatbot for customer service. Instead of building this AI technology from scratch, you can just use an online service that offers these AI features. It's like renting AI skills from the internet.
+
+CDN (Content Delivery Network): When you watch a video online, you want it to load fast, without buffering. A CDN helps with that. It's a bunch of servers located in different places around the world that hold copies of the video. So, when you hit play, the video loads from the server closest to you, making it load faster.
+
+Demo: Let's say you're interested in a new app or a software program. A demo is like a guided tour of that app. It shows you how it works, what features it has, and how it can be useful for you, all before you decide to download, use, or buy it.
+
+DNS (Domain Name System): The internet works on numbers called IP addresses. But remembering numbers for every website would be hard, right? DNS is like a phonebook. When you type a website name like "google.com", DNS translates it into a number that computers understand, so you can reach the website easily.
+
+Ecommerce: This is all about shopping online. Whether you're buying clothes, booking a hotel, or ordering groceries, if it's happening over the internet, it's called ecommerce.
+
+IaaS (Infrastructure as a Service) & PaaS (Platform as a Service): These are like renting different parts of a computer through the internet. IaaS lets you rent things like storage space or processing power — basically the hardware stuff. PaaS goes a step further. It's like renting a ready-made space on the internet where developers can create, test, and run their software and apps, without worrying about the underlying hardware.
+
+ISP (Internet Service Provider): This is the company that connects you to the internet. They are the ones you call when your home WiFi is not working.
+
+Marketing Technologies: These are digital tools and software that help businesses understand their customers, create better ads, and sell products or services online more effectively. For example, tools that help send out marketing emails or analyze which ads are working well.
+
+Media: It’s all the stuff you can watch, read, or listen to through your devices like TV, smartphone, or laptop. This includes things like movies, music, news articles, and podcasts.
+
+SaaS (Software as a Service): Instead of buying a software program, installing it on your computer, and updating it regularly, SaaS lets you use the software over the internet. You usually pay a subscription fee (monthly or yearly) to use it. It's like renting the software instead of owning it.
+
+SECaaS (Security as a Service): It’s like having bodyguards for your online presence. This service provides online security measures to protect your data and systems from hackers or any kind of cyber threats, without you having to manage complex security systems by yourself.
+
+Social Media: These are apps or websites where people connect, share photos, videos, ideas, or even just chat. Places like Facebook, Instagram, and Twitter are all social media platforms.
+
+Travel: In the context of technology, this usually refers to using apps and websites for anything related to traveling. This can be booking flights, finding hotels, planning itineraries, or even taking virtual tours of places.
+
+UCaaS (Unified Communications as a Service): Imagine having your phone calls, video meetings, messages, and emails all in one place online. UCaaS does that. It combines different ways of communicating into one service, so you don't have to juggle multiple apps or tools.
+
+
+
+***Settings*** :
+
+Client Edit : (SLO,Dual Factor,SSO Children) : 
+
+??- what is SLO, Dual Factor and SSO Children
+Client has Data protection agreement - client has strict acesss of the test and product
+Switch to symphony - Symphony is the new UI of Catchpoint.
+Network type - selection of nodes
+Rest API Limit - calls per min/hour/day
+
+Divisions :
+
+-To seperate the products into different areas.
+-its not available for client in default but it has to be enabled from system level.
+- Test Types and Test Monitors.
+- to restrict that dv from creating certain web test and using certain test monitor.
+
+
+Schedulers :
+
+- use to manage resourses used by our test by defining time period for run and maintainance schedule
+- there are recurring occurances and one time occurances
+?? - if we create maintainance schedule and set it for once in our test then after that occurance will our test stop running or it'll be in default mode like before
+- in targetting and scheduling section, we can select run schedule and maintainance to override our schedule settings for that test
+
+
+
+User Roles :
+- it defines actions for catchpoint users or contact, to set up pre defined user roles
+- we cant modify pre defined user roles
+-(view, create or modify, delete ) : manage acc properties, manage API, manage chart template, view contact group, manage contact
+- contact is a client actually, if we create a client user(in system access section we can assign user role to client) that custom role then he'll have access to those selected roles only
+
+
+
+Indexes :
+- to group the results of test, it is used to compare individual test results
+- we can create it with name and description
+- we can assign upto 10 index for a client
+- after creating we can configure that index to certain test from that test properties
+
+
+
+?? Insight :
+- used to match the regular expression from headers of the request has been made to target the perticular url
+-types : 1) TracePoint 2) Indicator
+- we can configure those insights 
+-tracepoint will capture the numbers and indicators will capture the string data
+- can be captured for reports and alerts.
+
+??Zones :
+
+- it'll allow us to pattern match the request URL
+- it'll group the request which we'll match the regukar expression or header
+- while creating zone we can set some zone rules there 
+- zones are arbitary groups hostname, paths, URL or IP address
+
+API :
+
+- test data webhook
+- alert webhook 
+- rest api
+- we can create multiple consumer there 
+
+Liscence Allocation :
+-it lists all the liscences allocated with our account
+- if the we have 10 liscenses then we can assign and seggregate those lisceneses in divisions also
+
+- SLA Classification :
+
+- the userrole allows the user to remove sp test data from performance chart
+?? no sample SLA classification option available
