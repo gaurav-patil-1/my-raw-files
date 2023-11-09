@@ -1,0 +1,16 @@
+WPT Test --> SImilar to Instance Test --> If we ran 20 test it'll combine the results and show it to us --> 
+Catchpoint Test --> runs the test based on scheduling --> if we run the test for every 5 min --> it'll show us the data for every 5 min
+
+Catchpoint test --> will run on catpoint agent where they are installed
+WPT Agent --> use WPT agent code and sends back the metric data to the code and core to FP
+
+?? Basic Digest NTML : 
+
+?? Runs per test : Targetng and scheduling
+
+
+SmartBoard : 
+1) Core Web Vitals - 1st contentful Paint-(1st element rendered on page), largest contentful paint(largest element rendered on page), total blocking time(prevent the user to interact with the site) -cumulative layout shift()
+2) Lighthouse Score - performance, pwa and accessibility
+3) Asset Performance
+4) Custom 
